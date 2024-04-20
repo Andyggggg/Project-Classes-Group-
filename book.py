@@ -64,7 +64,7 @@ class Book:
         return f"{self.__isbn} {self.__title:>20} {self.__author:>25} {self.get_genre_name():>30} {self.get_availability():>15}"
     
 #Maksym Gordiienko 1.0v--------------------------------------------------------------------------------------------------------
-import csv
+'''import csv
  
 class Book:
     
@@ -125,5 +125,5 @@ class Book:
         return f"{self.__isbn} {self.__title} {self.__author} {self.get_availability()}"
  
 if __name__ == "__main__":
- 
+ '''
 #import csv file
