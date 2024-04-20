@@ -61,10 +61,3 @@ class Book:
 #insert set_below
     def __str__(self):
         return f"{self.__isbn} {self.__title:>20} {self.__author:>25} {self.get_genre_name():>30} {self.get_availability():>15}"
-
-book1 = Book("978-0450000000", "Gone with the Wind", "Margaret Mitchell", 8, True)
-print(book1)
-book1.borrow_it()
-print(book1)
-book1.return_it()
-print(book1)
