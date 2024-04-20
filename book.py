@@ -1,4 +1,4 @@
-#Quan 1.0v 
+#Quan 1.0v --------------------------------------------------------------------------------------------------------
 class Book:
     genres = {
         0: "Romance",
@@ -63,7 +63,7 @@ class Book:
     def __str__(self):
         return f"{self.__isbn} {self.__title:>20} {self.__author:>25} {self.get_genre_name():>30} {self.get_availability():>15}"
     
-#Maksym Gordiienko 1.0v
+#Maksym Gordiienko 1.0v--------------------------------------------------------------------------------------------------------
 import csv
  
 class Book:
